@@ -6,15 +6,16 @@ import reportWebVitals from './reportWebVitals';
 import store from './redux/store'
 import { Provider } from 'react-redux'
 import { BrowserRouter } from 'react-router-dom'
+import { HashRouter as Router} from "react-router-dom";
 import '@fortawesome/fontawesome-free/css/all.min.css';
 
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <Router>
       <Provider store={store}>
         <App />
       </Provider>
-    </BrowserRouter>
+    </Router>
   </React.StrictMode>,
   document.getElementById('root')
 );
