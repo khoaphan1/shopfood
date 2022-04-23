@@ -1,0 +1,127 @@
+.input-group-row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-item{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.input-item-nav{
+    display: flex;
+    align-items: stretch;
+}
+
+
+/* CSS */
+.add-new {
+  appearance: none;
+  background-color: #78a206;
+  border: 2px solid #82ac11;
+  border-radius: 5px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 12px;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+  min-height: 20px;
+  min-width: 0;
+  outline: none;
+  padding: 8px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  will-change: transform;
+  width: 100px;
+}
+
+.add-new:disabled {
+  pointer-events: none;
+}
+
+.add-new:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+.add-new:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
+
+
+
+.input-text-name{
+    display: inline-block;
+}
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    outline: 0;
+    box-shadow: none;
+    border: 1px solid #78a206;
+    background: DeepSkyBlue;
+    background-image: none;
+  }
+ .select-group {
+    position: relative;
+    display: flex;
+    height: 9px;
+    line-height: 2;
+    background: #fff;
+    overflow: hidden;
+    border-radius: .25em;
+    margin: 10px 0 20px;
+  }
+  select{
+    flex: 1;
+    padding: 0 .5em;
+    color: #78a206;
+    cursor: pointer;
+  }
+  /* thiết kế dấu mũi tên */
+  .select-group::after {
+    content: '25BC';
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0 1em;
+    background: DodgerBlue;
+    cursor: pointer;
+    pointer-events: none;
+    -webkit-transition: .25s all ease;
+    -o-transition: .25s all ease;
+    transition: .25s all ease;
+    color: white;
+  }
+  /* Hiệu ứng hover */
+  .select-group:hover::after {
+    color: Gainsboro;
+  }
+
+  .input-item-group{
+      display: flex;
+  }
+.input-item-group__item{
+    display: flex;
+    align-items: center;
+}
+  .radio-item{
+      margin-right: 5px;
+  }
+
+  .input-item-group__item label{
+      margin-right: 10px;
+  }

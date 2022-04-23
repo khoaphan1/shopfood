@@ -1,0 +1,209 @@
+.billing-detail-form{
+    background: transparent none repeat scroll 0 0;
+    box-shadow: 0 0 6px rgb(0 0 0 / 10%);
+    padding: 80px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+.billing-detail-text{
+    border-bottom: 1px solid #ebebeb;
+    color: #2c2c2c;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 20px;
+    margin: 0 0 20px;
+    padding-bottom: 12px;
+    padding-left: 3px;
+    width: 100%;
+    font-weight: 600;
+    font-family: "Oswald", sans-serif;
+}
+
+.billing-detail-form-input{
+    background-color: #fff;
+    border: 1px solid #78a206;
+    font-size: 14px;
+    height: 50px;
+    margin-bottom: 10px;
+    padding: 0 15px;
+    width: 100%;
+    color: #696969;
+}
+
+.billing-detail-form-input:focus{
+    outline: none;
+}
+
+.billing-detail-form h2{
+    font-size: 12px;
+    color: #696969;
+    margin-bottom: 20px;
+}
+
+.billing-detail-form a{
+    transition: all 0.3s ease 0s;
+}
+
+.billing-detail-form a:hover{
+    color: #78a206;
+}
+
+
+.billing-detail-submit{
+    text-align: center;
+}
+
+.text-rating{
+    background-color: #fbfbfb !important;
+}
+
+.billing-detail-form-btn{
+    background-color: #78a206;
+    color: #fff;
+    border: medium none;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1;
+    padding: 13px 30px 13px;
+    text-transform: uppercase;
+    -webkit-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+.billing-detail-content h3{
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: #78a206;
+}
+
+/****************************************************/
+.user-order-area{
+    margin-left: 30px;
+}
+.your-order {
+    background: #fbfbfb none repeat scroll 0 0;
+    padding: 30px 40px 45px;
+}
+
+.your-order h3 {
+    border-bottom: 1px solid #dedede;
+    color: #2c2c2c;
+    font-size: 24px;
+    line-height: 30px;
+    margin: 0 0 20px;
+    padding-bottom: 11px;
+    text-transform: uppercase;
+    font-family: "Oswald", sans-serif;
+    font-weight: 600;
+}
+
+.your-order-table table {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: medium none;
+    width: 100%;
+}
+
+.header-your-order{
+    border-top: medium none;
+    font-weight: 700;
+    text-transform: uppercase;
+    vertical-align: middle;
+    white-space: nowrap;
+    margin-bottom: 20px;
+}
+
+.list-product-order{
+
+}
+
+.list-product-order-item{
+    font-size: 14px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    margin-top: 10px;
+}
+
+.list-product-price-item{
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: #78a206;
+    font-weight: 600;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    margin-top: 10px;
+}
+
+.quantity-item{
+    font-weight: 700;
+    margin-left: 5px;
+}
+
+.your-order-subtotal{
+    margin-top: 15px;
+    border-top: medium none;
+    font-weight: 700;
+    text-transform: uppercase;
+    vertical-align: middle;
+    white-space: nowrap;
+    font-size: 14px;
+}
+
+.your-order-discount{
+    margin-top: 15px;
+    border-top: medium none;
+    font-weight: 700;
+    text-transform: uppercase;
+    vertical-align: middle;
+    white-space: nowrap;
+    font-size: 14px;
+}
+
+.your-order-shipping{
+    margin-top: 15px;
+    border-top: medium none;
+    font-weight: 700;
+    text-transform: uppercase;
+    vertical-align: middle;
+    white-space: nowrap;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    font-size: 14px;
+}
+
+.order-total{
+    margin-top: 20px;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.order-total-money{
+    color: #DA1212;
+}
+
+.user-order-area input{
+    cursor: pointer;
+    width: 100%;
+    font-size: 17px;
+    letter-spacing: 0.5px;
+    margin-top: 20px;
+    background: #78a206;
+    color: #ffffff;
+    border-color: #78a206;
+}
+
+.user-order-area input:hover{
+    color: #78a206;
+    background: #fff;
+}
+
+.order-btn{
+    width: 100%;
+    margin-top: 30px;
+    text-align: center;
+}

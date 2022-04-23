@@ -1,0 +1,146 @@
+.comment-area{
+    padding-top: 90px;
+    padding-bottom: 64px;
+}
+
+.comment-area .commnet-area-title{
+    color: #2c2c2c;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 12px;
+    text-transform: uppercase;
+    margin-bottom: 26px;
+}
+
+
+.comment-area-item{
+    border: 1px solid #ebebeb;
+    margin: 0 0 20px;
+    padding: 30px;
+}
+
+.comment-area-image{
+    float: left;
+    margin-right: 25px;
+}
+
+.comment-area-image img{
+    width: 50px;
+}
+
+.comment-area-content{
+
+}
+
+.comment-area-info{
+    line-height: 9px;
+}
+
+.comment-area-info a{
+    color: #23232c;
+    font-weight: 700;
+    text-transform: capitalize;
+    font-size: 12px;
+}
+
+.comment-area-info span {
+    display: block;
+    font-size: 0.93em;
+    font-style: italic;
+    margin-bottom: 15px;
+    line-height: 1.5;
+    margin-top: 12px;
+    font-size: 12px;
+}
+
+.comment-area-info p {
+    margin: 0;
+    line-height: 24px;
+    font-size: 12px;
+}
+
+button.rating-btn {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+.on {
+    color: #78a206;
+}
+.off {
+    color: #ccc;
+}
+
+.star-rating-user{
+    display: flex;
+    margin-top: 5px;
+}
+
+.star-rating-user p{
+    font-style:normal;
+    font-size: 14px;
+    margin-right: 2px;
+}
+
+/***********************/
+.rating-area-title{
+    color: #2c2c2c;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 12px;
+    text-transform: uppercase;
+    margin-bottom: 26px;
+}
+
+.star-rating p{
+    color: #555555;
+    font-size: 12px;
+    margin-bottom: 7px;
+    text-transform: capitalize;
+}
+
+.text-rating{
+    height: 114px;
+    background: #f3f3f3 none repeat scroll 0 0;
+    border: 1px solid #ebebeb;
+    height: 125px;
+    margin-bottom: 14px;
+    padding: 10px 15px;
+    width: 100%;
+    color: #555555;
+    font-size: 12px;
+}
+
+.text-rating:focus{
+    outline: none;
+}
+
+.rating-area label{
+    color: #555555;
+    font-size: 12px;
+    margin-bottom: 7px;
+    text-transform: capitalize;
+}
+
+.rating-area input{
+    background: #f3f3f3 none repeat scroll 0 0;
+    border: 1px solid #ebebeb;
+    display: block;
+    height: 43px;
+    margin-bottom: 11px;
+    width: 100%;
+    padding: 0 15px;
+    color: #555555;
+    font-size: 12px;
+
+}
+
+.rating-area input:focus{
+    outline: none;
+}
+
+.submit-btn-info{
+    margin-top: 30px;
+}

@@ -1,0 +1,31 @@
+.slick-slider-item{
+    padding: 150px 0 122px;
+    background-position: 76% center;
+}
+
+.banner-main-item{
+    margin: 50px 105px;
+}
+
+.banner-main-item h1{
+    font-weight: 600;
+    color: #292929;
+    text-transform: uppercase;
+    font-family: "Oswald", sans-serif;
+    font-size: 30px;
+}
+
+.banner-main-item .item-nav-home{
+    font-size: 14px;
+    color: #696969;
+    cursor: pointer;
+}
+
+.banner-main-item .item-nav-text{
+    font-size: 14px;
+    margin-left: 5px;
+    color: #78a206;
+    cursor: pointer;
+}
+
+

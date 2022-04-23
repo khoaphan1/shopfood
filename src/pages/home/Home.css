@@ -1,0 +1,38 @@
+.adv-picture{
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.adv-img{
+    width: 100%;
+    transition: all 1s;
+}
+
+.adv-picture:hover .adv-img {
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+}
+
+.list-product{
+    background-image: url('https://template.hasthemes.com/naturecircle/naturecircle/assets/img/bg/1.jpg');
+    background-position: top center;
+    background-attachment: scroll;
+    background-clip: initial;
+    background-color: rgba(0, 0, 0, 0);
+    background-origin: initial;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.bottom-list-product{
+    background-image: url('https://template.hasthemes.com/naturecircle/naturecircle/assets/img/bg/1.jpg');
+    background-position: bottom center;
+    background-attachment: scroll;
+    background-clip: initial;
+    background-color: rgba(0, 0, 0, 0);
+    background-origin: initial;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}

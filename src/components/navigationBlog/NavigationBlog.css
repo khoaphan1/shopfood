@@ -1,0 +1,102 @@
+.navigation-blog-main{
+    margin-left: 30px;
+}
+
+.sidebar-widget{
+    margin-bottom: 26px;
+}
+
+.sidebar-widget h3{
+    font-family: "Oswald", sans-serif;
+    line-height: 30px;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #363636;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+    margin-bottom: 20px;
+}
+
+
+
+.sidebar-search-box {
+    border: 1px solid #ebebeb;
+    height: 34px;
+    position: relative;
+}
+
+.sidebar-search-box input{
+    border: 0 none;
+    color: #555555;
+    height: 100%;
+    padding: 0 40px 0 15px;
+    width: 100%;
+    font-size: 12px;
+}
+
+.sidebar-search-box input:focus{
+    outline: none;
+}
+
+.sidebar-search-box button{
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    color: #999999;
+    cursor: pointer;
+    font-size: 16px;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 34px;
+    border: 0;
+}
+
+.sidebar-widget-tag{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    margin-top: -10px;
+}
+
+.sidebar-widget-tag li a{
+    border: 1px solid #ebebeb;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    display: block;
+    margin: 10px 8px 0 0;
+    padding: 7px 18px;
+    text-transform: capitalize;
+    -webkit-transition: all 0.2s ease-in-out 0s;
+    -o-transition: all 0.2s ease-in-out 0s;
+    transition: all 0.2s ease-in-out 0s;
+    font-size: 12px;
+    color: #696969;
+}
+
+.sidebar-widget-tag li a:hover{
+    color: #ebebeb;
+    background-color: #78a206;
+}
+.find-by-text li{
+    margin-bottom: 10px;
+}
+
+.find-by-text > span {
+    cursor: pointer;
+    color: #696969;
+    display: block;
+    margin-bottom: 15px;
+    font-size: 12px;
+    transition: all 0.3s ease 0s;
+}
+
+.find-by-text > span:hover {
+    cursor: pointer;
+    color: #78a206;
+    transform: translateX(5px);
+}

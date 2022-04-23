@@ -1,0 +1,80 @@
+.sign-up-main{
+    margin: 80px 0;
+    
+
+}
+
+.sign-up-main h4{
+    text-align: center;
+    width: 100%;
+    color: #78a206;
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: capitalize;
+    transition: all 0.3s ease 0s;
+}
+
+.sign-up-form{
+    background: transparent none repeat scroll 0 0;
+    box-shadow: 0 0 6px rgb(0 0 0 / 10%);
+    padding: 80px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+.sign-up-form-input{
+    background-color: transparent;
+    border: 1px solid #ebebeb;
+    font-size: 14px;
+    height: 50px;
+    margin-bottom: 10px;
+    padding: 0 15px;
+    width: 100%;
+    color: #696969;
+}
+
+.sign-up-form-input:focus{
+    outline: none;
+}
+
+.sign-up-form h2{
+    font-size: 12px;
+    color: #696969;
+    margin-bottom: 20px;
+}
+
+.sign-up-form a{
+    transition: all 0.3s ease 0s;
+}
+
+.sign-up-form a:hover{
+    color: #78a206;
+}
+
+
+.sign-up-submit{
+    text-align: center;
+}
+
+.sign-up-form-btn{
+    background-color: #78a206;
+    color: #fff;
+    border: medium none;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1;
+    padding: 13px 30px 13px;
+    text-transform: uppercase;
+    -webkit-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+.sign-up-content h3{
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: #78a206;
+}
