@@ -1,70 +1,32 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+* Các trang có trong web
+- Trang chủ
+- Cửa hàng
+- Chi tiết sản phẩm
+- Blog
+- Chi tiết Blog
+- Về chúng tôi
+- Giỏ Hàng
+- Thanh toán
+- Đăng nhập
+- Đăng ký
+- Quản lý cửa hàng
+- Quản lý người dùng
+- Quản lý loại sản phẩm
+- Quản lý bình luận
+- Quản lý Blog
+- Quản lý đơn hàng
+* Các chức năng có trong web:
+- Thêm sản phẩm vào giỏ hàng
+- Tìm kiếm sản phẩm
+- Lọc sản phẩm theo điều kiện
+- Bình luận và hiển thị binh luận
+- Đổi sản phẩm ngẫu nhiên trong trang chi tiết sản phẩm
+- Thêm xóa sửa sản phẩm
+- Thêm xóa sửa người dùng
+- Thêm xóa sửa loại sản phẩm
+- Xóa bình luận của người dùng
+- Thêm xóa sửa blog
+- Sửa trạng thái đơn hàng
+* Cách vào trang quản lý :
+vào trang "https://khoaphan1.github.io/shopfood/#/admin/Home" hoặc vào phần bình luận trong trang chi tiết sản phẩm nhấp vào "go to comment page" để đến trang admin
+* Lưu ý không reload lại trang nếu không khi thêm xóa sửa sẽ mất hết dữ liệu
